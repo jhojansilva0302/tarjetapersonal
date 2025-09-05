@@ -1,5 +1,4 @@
-body 
-{
+body {
     fond-family: Arial, sans-serif;
     background-color: rgb(163, 182, 200);
     display: flex;
@@ -13,20 +12,31 @@ body
     padding: 20px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 4px 8px; rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px;
+    rgba(0, 0, 0, 0.1);
     width: 300px;
 }
+
 .card img {
-        border-radius: 50%;
-        width: 120px;
-        margin-bottom: 15%;
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 15%;
 }
+
 .card h1 {
     fond-size: 24px;
     margin: 10px;
 }
+
 .card p {
     fond-size: 40px;
     color: dimgrey;
 }
 
+.buttons a {
+    display: inline block margin: 5px;
+    padding;
+    8px 12px;
+    text decoration: none;
+    color: white;
+    
