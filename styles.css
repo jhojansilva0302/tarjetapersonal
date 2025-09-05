@@ -1,0 +1,32 @@
+body 
+{
+    fond-family: Arial, sans-serif;
+    background-color: rgb(163, 182, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+}
+
+.card {
+    background-color: rgb(213, 213, 230);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px; rgba(0,0,0,0.1);
+    width: 300px;
+}
+.card img {
+        border-radius: 50%;
+        width: 120px;
+        margin-bottom: 15%;
+}
+.card h1 {
+    fond-size: 24px;
+    margin: 10px;
+}
+.card p {
+    fond-size: 40px;
+    color: dimgrey;
+}
+
