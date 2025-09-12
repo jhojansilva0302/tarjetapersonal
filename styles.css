@@ -1,6 +1,6 @@
 body {
     fond-family: Arial, sans-serif;
-    background-color: rgb(163, 182, 200);
+    background-color: rgb(75, 86, 96);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@ body {
 }
 
 .card {
-    background-color: rgb(213, 213, 230);
+    background-color: rgba(213, 213, 230, 0.641);
     padding: 20px;
     border-radius: 15px;
     text-align: center;
@@ -18,8 +18,8 @@ body {
 }
 
 .card img {
-    border-radius: 50%;
-    width: 120px;
+    border-radius: 75%;
+    width: 100px;
     margin-bottom: 15%;
 }
 
@@ -34,9 +34,22 @@ body {
 }
 
 .buttons a {
-    display: inline block margin: 5px;
-    padding;
-    8px 12px;
-    text decoration: none;
+    display: inline-block;
+    /* Permite aplicar ancho, alto y márgenes */
+    background: hsl(211, 89%, 41%);
+    /* Naranja complementario al azul */
     color: white;
-    
+    /* Texto blanco para contraste */
+    padding: 0.8rem 1.5rem;
+    /* Tamaño interno del botón */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    text-decoration: none;
+    /* Quita subrayado en botones tipo enlace */
+    margin-top: 1rem;
+    /* Espacio superior respecto al contenido */
+}
+
+.buttons a:hover {
+    background-color: cadetblue;
+}
