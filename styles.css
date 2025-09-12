@@ -18,7 +18,7 @@ body {
 }
 
 .card img {
-    border-radius: 75%;
+    border-radius: 5%;
     width: 100px;
     margin-bottom: 15%;
 }
